@@ -70,6 +70,6 @@ elixir.extend('bower', function(cssFile, cssOutput, jsFile, jsOutput) {
 
     });
 
-    return this.queueTask('bower');
+    return gulp.start('bower');
 
 });
